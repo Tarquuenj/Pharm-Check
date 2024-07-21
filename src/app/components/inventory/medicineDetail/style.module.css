@@ -1,0 +1,60 @@
+.medicinesGroups{
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    background: var(--dashboard-bg);
+}
+.search{
+    background: none !important;
+}
+.header{
+    background: #ffffff;
+}
+/* .medicinesGroups .main{
+    padding: var(--side-bar-padding);
+} */
+.main{
+  padding: var(--side-bar-padding);
+}
+.medicinesGroups section{
+    width: 100%;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.title span{
+    margin-top: 10px;
+}
+.downloadButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background: #ffffff;
+  }
+
+  .deletebtn{
+    color: #28374B;
+    background-color: #ffffff;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+  }
+  .nowrap{
+    display: flex !important;
+    flex-direction: row;
+    gap: 10%;
+    flex-wrap: nowrap !important;
+    height: 100%;
+  }
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    height: fit-content !important;
+    
+  }
+  .soldbtn{
+    margin: 30px 0;
+  }

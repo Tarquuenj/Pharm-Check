@@ -1,0 +1,74 @@
+.layout{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: var(--dashboard-bg);
+    position: relative;
+    /* /* background: var(--dashboard-bg); */
+    /* background: var(--dashboard-bg);  */
+ }
+.viewMerge{
+    display: flex;
+    flex-direction: column;
+    background: var(--dashboard-bg);
+    width: 100%;
+}
+.menuIcon{
+    /* display: none; */
+    color: var(--primary-blue);
+    cursor: pointer;
+    width: 36px;
+    height: 24px;
+    margin-top: 18px;
+    position: absolute;
+}
+.cancel{
+    color: #ffffff;
+    right: 20px;
+    top: 15px;
+}
+/* @media (max-width:560px) {
+    
+} */
+/*.menu{
+    background: var(--side-bar-bg);
+}
+.menu .aside{
+    height: 100%;
+    border-bottom: #000000 5px solid;
+
+} */
+
+/* @media (max-width: 530px) {
+    .menu aside{
+        display: none;
+        width: 100vw;
+        background-color: red;
+        /* display: block; works here though 
+    }
+    aside.mobile{
+        display: block;
+    }
+    .menu.mobile aside.mobile{
+        display: block;
+    }
+    .menuIcon{
+        display: block;
+    }
+    .menuIcon{
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 5px;
+    }
+} */
+/* .sidebar{
+    flex: 2;
+}
+.dashboard{
+    flex: 5;
+} */
+.mobile{
+    color: red;
+    background-color: red;
+}

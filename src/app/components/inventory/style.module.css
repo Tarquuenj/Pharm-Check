@@ -1,0 +1,53 @@
+
+.mainDiv {
+  padding: var(--side-bar-padding);
+  margin-bottom: 30px;
+}
+.container{
+  width: 100%;
+}
+
+.analysis{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+h6,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.downloadButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.analysis {
+  display: flex;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+
+.info {
+  align-items: center;
+}
+
+@media (max-width: 952px) {
+  /* .analysis {
+    justify-content: center !important;
+  } */
+
+  .table {
+    overflow-x: scroll;
+  }
+}

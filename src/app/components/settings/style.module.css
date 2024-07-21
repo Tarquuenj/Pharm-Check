@@ -1,0 +1,167 @@
+.cancelbtn {
+    border: 2px solid #273360;
+    color: #273360;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons button {
+    width: 128px;
+    text-align: center;
+}
+
+.settings {
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    background: #ffffff !important;
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px;
+    box-shadow: 4px 5px 8px 0;
+    width: fit-content;
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(0, 0, 0, 0.8);
+}
+.pic h6, .info h6{
+    color: #28374B;
+    font-size: 12px;
+    font-weight: 600;
+}
+.info p{
+    color: rgb(0, 0, 0, 0.7);
+    font-size: 11px;
+    font-weight: 400px;
+}
+.settings ul{
+    padding: 0 !important;
+}
+.settings ul li{
+    list-style: none;
+}
+.column1 {
+    padding-right: 15px;
+    border-right: 0.75px solid rgb(0, 0, 0, 0.15);
+}
+
+.list, .navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #273360;
+    border-radius: 5px;
+    background-color: rgb(79, 128, 225, 0.15);
+    font-size: 12.76px;
+    font-weight: 500;
+    gap: 15px;
+    padding: 10px;
+    margin: 5px 0;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    /* gap: 9px; */
+    align-items: flex-end;
+}
+
+.dp svg {
+    height: 55px;
+    width: 55px;
+}
+
+.dp {
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    overflow: hidden;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    /* margin: 30px 0; */
+}
+
+.listHead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 30px 3%;
+}
+.listClass{
+    color: #28374B;
+    font-family: 'Poppins', sans-serif;
+    padding: var(--side-bar-padding);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.listClass h3, .listClass h6{
+    margin: 0;
+    padding: 0;
+}
+.form, .buttons2{
+    padding: 0 5%;
+}
+.button1{
+    color: #ffffff;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 50px;
+}
+.pic, .info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.info{
+    gap: 10px;
+}
+.info h3{
+    font-size: 28px;
+    font-weight: 600;
+}
+.info p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.column2{
+    margin-left: 20px;
+}
+.column2 div h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media (max-width:950px) {
+    .column1{
+        display: none;
+    }
+    .column2{
+        margin: 0 15px;
+    }
+}
+@media (max-width:450px) {
+    .listHead{
+        flex-direction: column;
+    }
+}

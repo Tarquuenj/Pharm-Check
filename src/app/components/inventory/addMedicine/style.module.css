@@ -1,0 +1,67 @@
+.addMedicineComp{
+    display: flex;
+    flex-direction: row;
+    background: var(--dashboard-bg);
+    font-family: 'Inter', sans-serif;
+    /* width: 100%; */
+}
+.addMedicineComp section{
+    width: 100%;
+}
+.header{
+    background: #ffffff;
+    /* width: 100%; */
+}
+.main{
+    padding: var(--side-bar-padding);
+    margin-top: 30px;
+}
+.type{
+    background-color: var(--dashboard-bg);
+}
+.title, .title span, .title span svg{
+    display: flex;
+    align-items: center;
+}
+.title span svg{
+    margin-top: 5px;
+}
+.newInfo, .prescription{
+    color: var(--add-medicine-label);
+   
+    
+}
+.prescription{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.prescription div h6{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.prescription div textarea, .prescriptionText{
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid rgb(29, 36, 46, 0.3);
+    padding: 12px;
+    width: 100%;
+}
+.eachNewInfo h6{
+    font-size: 14px;
+    font-weight: 400px;
+    padding-bottom: 10px;
+}
+.btn{
+    background-color: var(--side-bar-bg);
+    margin: 20px 0;
+    width: 150px;
+    cursor: pointer;
+}
+.success{
+    background: var(--primary-blue);
+}

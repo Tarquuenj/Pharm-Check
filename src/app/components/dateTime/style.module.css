@@ -1,0 +1,9 @@
+.dateTime{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    color: #28374B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}

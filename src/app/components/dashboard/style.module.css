@@ -1,0 +1,342 @@
+/* .dashboard {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+.viewMerge{
+    display: flex;
+    flex-direction: column;
+    background-color: blue; */
+/* } */
+.mainDiv{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    padding: var(--side-bar-padding);
+    color:var(--primary-blue);
+    gap: 30px;
+    margin-bottom: 30px;
+    /* padding-bottom: 50px; */
+}
+
+
+@media (max-width:375px) {
+    .absolute{
+        left: 0;
+        top: 101px;
+    }
+}
+@media (max-width:850px) {
+    .main .head{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .main .head .downloadButton{
+        margin-top: 20px;
+    }
+    .analysis{
+        flex-direction: column;
+    }
+}
+@media (max-width: 861px) {
+    .main .head .info{
+        margin-top: 50px;
+        align-items: center;
+    }
+    .absolute{
+        margin-top: 30px;
+    }
+}
+.main h3, .main h6, .main p{
+    margin: 0;
+    padding: 0;
+  }
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.head .info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.head .info h3{
+    font-weight: 700;
+    font-size: 24px;
+}
+.head .info p{
+    font-weight: 400;
+    font-size: 14px;
+}
+.downloadButton button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    background: #ffffff;
+    color: #28374B;
+    border: 0.4px #1D242E solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.buttonDropdown{
+    position: relative;
+    border-radius: 5px;
+}
+.dashboardhover{
+    position: absolute;
+    bottom: -5px;
+    right: -10px;
+    border-radius: 5px;
+}
+.analysis, .analysis2{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* gap: 36px; */
+    padding: 3px 2px;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    
+}
+/* .analysis{
+    justify-content: space-between;
+} */
+.analysis {
+    gap: 36px;
+    flex-wrap: wrap;
+}
+.analysis2{
+    gap: 32px;
+    justify-content: center;
+}
+.eachAnalysis{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #C2C1DD;
+    border-radius: 5px;
+    max-width: 283px;
+    /* max-width: 22.5%; */
+    width: 100%;
+    /* height: 100%; */
+    background: #ffffff;
+
+
+    
+    /* margin: 0 auto; */
+}
+@media (max-width:934px) {
+    .analysis .eachAnalysis{
+        max-width: 100%;
+        min-height: 200px;
+}
+}
+/* @media (min-width:1200px) and (max-width: 1595px) {
+    .analysis, .analysis2{
+        justify-content: flex-start;
+        padding-left: 5%;
+    }
+} */
+.analysis .eachAnalysis{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.analysis .eachAnalysis .main{
+    padding: 10px 15px;
+    /* position: absolute; */
+}
+.analysis .eachAnalysis .footer{
+    /* position: absolute;
+    bottom: 0; */
+    padding: 10px;
+    
+}
+.analysis2 .eachAnalysis{
+    max-width: 605px;
+    width: 100%;
+    /* max-width: 590px; */
+    border: 1px solid #28374B;
+    background: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 30px;
+    border-radius: 5px;
+    position: relative;
+}
+/* .eachAnalysis hr{
+    
+} */
+.row1{
+    
+    border-bottom: 1px solid rgb(40, 55, 75, 0.25);
+    
+}
+.row1, .row2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--side-bar-padding);
+    padding-bottom: 15px;
+    gap: 20px;
+    
+}
+.row2{
+    padding-right: 15px ;
+    
+}
+.row1 h6{
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.row1 p{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.row1 h6, .row1 p, .row2 div{
+    width: 40%;
+}
+.row2 h3{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.row2 p{
+    font-weight: 500;
+    font-size: 14px;
+}
+.image{
+    border: 1px solid #8582BC;
+    height: 37px;
+    width: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image svg{
+    height: 30.83px;
+    width: 30.83px;
+    color: #8582BC;
+}
+.eachAnalysis .main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 15px 0;
+    background: #ffffff;
+    border-radius: 5px;
+    justify-content: center;
+    color: var(--primary-blue);
+}
+/* @media (max-width:970px) {
+    .description span{
+        display: none;
+    }
+} */
+.eachAnalysis .main h6{
+    font-weight: 700;
+    font-size: 20px;
+} 
+.mainIndex .main .image, .mainIndex{
+    border: 1px solid #C2C1DD;
+}
+.mainIndex .main .image svg{
+    color: #C2C1DD;
+}
+.mainIndex .footer{
+    background-color: #C2C1DD ;
+}
+.index1, .index1 .main .image, .index1 .main .image svg{
+    border: 1px solid rgb(255, 207, 92, 0.5);
+    color: rgb(255, 207, 92, 0.5);
+}
+.index1 .footer{
+    background: rgb(255, 207, 92, 0.5) !important;
+}
+.index2, .index2 .main .image, .index2 .main .image svg{
+    border: 1px solid rgb(65, 53, 243, 0.5);
+    color: rgb(65, 53, 243, 0.5);
+}
+.index2 .footer{
+    background: rgb(65, 53, 243, 0.5) !important;
+}
+
+.eachAnalysis .footer{
+    background: #C2C1DD;
+    display: flex;
+    flex-direction: row !important;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 0;
+    font-size: 12px;
+    font-weight: 400;
+    align-self: baseline;
+    /* position: relative;
+    bottom: 0; */
+    width: 100%;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.eachAnalysis .footer p{
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+    /* width: 100%; */
+}
+.eachAnalysis .footer svg{
+    padding-right: 15px;
+    width: 30px;
+    height: 20px;
+}
+.description{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.description p{
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+.description span{
+    display: flex;
+    font-weight: 400;
+    font-size: 12px;
+    align-items: center;
+}
+.description span select{
+    display: flex;
+    border: none;
+    align-items: center;
+}
+/* .description span select:focus{
+
+} */
+.navigate{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,34 @@
+.main{
+    padding: var(--side-bar-padding);
+}
+/* .addSection{
+    padding-bottom: 30px;
+} */
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+.buttons button{
+    width: 150px;
+}
+.deletebtn{
+    color: var(--primary-blue);
+    border: red 1px solid;
+}
+@media (max-width:861px) {
+    .addSection{
+        margin-top: 50px;
+    }
+}
+/* @media (max-width:661px) {
+    .buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+} */

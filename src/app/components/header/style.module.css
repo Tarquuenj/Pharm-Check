@@ -1,0 +1,107 @@
+.header {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #E3EBF3;
+    padding: var(--side-bar-padding);
+    background: #F7FAFD;
+    gap: 10px;
+    padding: 20px;
+    background-color: #F7FAFD;
+    /* height: 60px; */
+    /* padding-bottom: 5px; */
+    /* height: fit-content; */
+    /* position: fixed;
+    z-index: 2;
+    left: 270px;
+    /* width: 81%; */ 
+}
+.header2{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    align-items: flex-end;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+@media (max-width:860px) {
+    .header, .header2{
+        flex-direction: column-reverse;
+        /* width: 100%; */
+        justify-content: center;
+        /* height: 90px; */
+    } 
+}
+.menuIcon{
+    display: none;
+    color: #000000;
+    cursor: pointer;
+    width: 36px;
+    height: 24px;
+    margin-top: 18px;
+}
+@media (max-width: 375px) {
+    .header, .header2{
+        /* width: 100%; */
+    }
+    .menuIcon{
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 5px;
+    }
+    .sidebar{
+        display: none;
+    }
+}
+/* .search{
+    background:  !important;
+} */
+.language{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: #28374B;
+    font-weight: 400;
+    font-size: 12px;
+}
+.iconTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.greetingTime{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #28374B;
+    font-weight: 500;
+    font-size: 14px;
+}
+.greetingTime p{
+    margin: 3px;
+}
+.greeting, .time{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #28374B;
+    align-items: center;
+}
+.greeting{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #28374B;
+}
+.greeting div{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #FFCF5C;
+}

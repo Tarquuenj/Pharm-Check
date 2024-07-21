@@ -1,0 +1,190 @@
+.main{
+    padding: var(--side-bar-padding);
+    margin-bottom: 30px;
+}
+.analysisRow1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    font-family: 'Poppins', sans-serif;
+    gap: 15px;
+    margin-top: 30px;
+}
+.eachbox{
+    background: #ffffff;
+    border: 0.7px solid #EDF2F6;
+    box-shadow: 0 2.8 14 0 rgb(238, 238, 238, 0.502);
+    border-radius: 14.4px;
+    padding: 5%;
+    box-shadow: 4px 4px 7px 0 rgb(0, 0, 0, 0.5);
+
+}
+.analysisRow2 .eachbox{
+    box-shadow: 4px 4px 7px 0 rgb(0, 0, 0, 0.5);
+}
+
+.analysisRow2{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    display: grid;
+    /* display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr; */
+    /* grid-template-rows: 1fr 1fr; */
+   color:#05004E;
+    gap: 30px !important;
+    margin-bottom: 0 !important;
+}
+.analysisRow2 .gridGrid{
+    /* background: red; */
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* place-self: center; */
+    
+    /* grid-template-rows: 1fr 1fr; */
+   
+    gap: 15px;
+}
+/* .analysisRow2 div{
+    height: ;
+} */
+.analysisRow2 div .eachbox{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.eachbox h6{
+    font-weight: 600;
+    font-size: 17.38px;
+}
+.amount{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+}
+.amount h3{
+    font-weight: 600;
+    font-size: 26px;
+}
+.amount div{
+    background: rgb(39, 202, 88, 0.3);
+    padding: 0px 1.2px;
+    display: flex;
+    align-items: center;
+    color: #27CA58;
+    border-radius: 1.2px;
+    font-weight: 400;
+    font-size: 13.6px;
+    height: 90%;
+}
+.p1{
+    color: #5F6671;
+    font-weight: 400;
+    font-size: 15.91px;
+    margin-bottom: 50px !important;
+}
+.gridGrid .eachbox{
+    position: relative;
+    overflow: hidden;
+}
+.details{
+    background: #EEEDEE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 15.91px;
+    color: rgb(29, 36, 46, 0.93);
+    width: 100%;
+    cursor: pointer;
+}
+.details p{
+    padding-left:15px;
+}
+.details svg{
+    padding-right: 15px;
+}
+.amount .lastIndex{
+    background: rgb(240, 48, 48, 0.3);
+}
+.lastIndex, .green{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.table, .table thead, .table tbody{
+    width: 100%;
+}
+.table tbody tr, .table thead tr{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 2fr 0.5fr;
+    gap: 15px;
+}
+.table thead tr th{
+    text-align: left;
+    color: #96A5B8;
+    font-weight: 400;
+    font-size: 16.5px;
+}
+.table tbody tr td{
+    color: #444A6D;
+    font-weight: 400;
+    font-size: 17px;
+    text-wrap: wrap;
+    /* padding-right: 50px; */
+    /* background-color: purple; */
+}
+.wrapper{
+    
+    height: 6px;
+    border-radius: 4px;
+    overflow: hidden;
+    padding-right: 20px;
+}
+.barCompleted{
+    background: #0095FF;
+    width: 60%;
+}
+.container1{
+    background: red ;
+}
+.container1{
+    background: red ;
+}
+.container1{
+    background: red ;
+}
+.container1{
+    background: red ;
+}
+.container1{
+    background: red ;
+}
+.barCompleted1{
+
+    color: #0095FF;
+}
+.container{
+    background: #CDE7FF;
+    width: 100%;
+}
+.barCompleted2{
+    color: red;
+}
+/* .label{
+    display: none;
+} */
+@media (max-width: 725px) {
+    .analysisRow1, .analysisRow2 .gridGrid{
+        grid-template-columns: none;
+    }
+}

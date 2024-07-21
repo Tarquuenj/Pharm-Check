@@ -1,0 +1,139 @@
+
+/* .medicinesList section{
+    width: 100%;
+    background: var(--dashboard-bg);
+}
+.header{
+    background: #ffffff;
+} */
+.headSpan{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.head{
+    padding-bottom: 0 !important;
+}
+.headSpan h3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.headSpan h3 span{
+    display: flex;
+    align-items: center;
+}
+@media (max-width:320px) {
+    .title span, .headSpan .h32{
+        display: none;
+    }
+}
+.medicinesList{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.medicinesListComp{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.main{
+    padding: var(--side-bar-padding);
+    background: var(--dashboard-bg);
+    /* width: 100%; */
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-blue);
+    font-family: 'Poppins', sans-serif;
+    gap: 0;
+    
+}
+.scroll{
+    overflow-x: scroll;
+}
+.downloadButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.head2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1D242E;
+    margin-bottom: 20px;
+}
+.head2 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.head2 div svg{
+    width: 14px;
+    height: 14px;
+}
+.button{
+    color: var(--primary-blue);
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0.4px solid #1D242E;
+    border-radius: 5px;
+    gap: 30px;
+    padding: 10px 15px;
+}
+/* table{
+    display: flex;
+    justify-content: space-between;
+} */
+.table{
+    border-collapse: collapse;
+    background: #ffffff;
+    color: rgb(40, 55, 75, 0.9);
+    min-width: 400px;
+    border-radius: 5px;
+    width: 100%;
+}
+.table thead{
+    font-weight: 500;
+    font-size: 16px;
+}
+.table thead tr{
+    text-align: left;
+    border-bottom: 1px solid rgb(40, 55, 75, 0.25);
+}
+/* .table thead svg{
+    height: 12.71px;
+    width: 8px;
+} */
+.table tbody{
+    font-weight: 400;
+    font-size: 14px;
+}
+.table th, .table td{
+    padding: 10px 25px;
+}
+.table tbody tr{
+    border-bottom: 1px solid rgb(40, 55, 75, 0.25);
+}
+.details{
+    cursor: pointer;
+}
+/* .table th{ */
+    /* height: 50px; */
+    /* background: blue;
+    display: flex;
+    align-items: center; */
+    /* flex-direction: row; */
+/* } */
+.headrow .head svg{
+    margin-top: 10px;
+}

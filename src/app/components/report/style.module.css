@@ -1,0 +1,152 @@
+.main{
+    padding: var(--side-bar-padding);
+    padding-bottom: 30px;
+}
+
+.salesMain {
+    display: grid;
+    grid-template-rows: 1fr 1.5fr;
+    gap: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.salesMain .row1 {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 15px;
+}
+
+.eachbox {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* width: 100%; */
+}
+
+.eachbox .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.eachbox .head .export {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    color: #0F3659;
+    border: 0.5px solid #C3D3E2;
+    border-radius: 4px;
+    gap: 5px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.divTitle {
+    color: #05004E;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.title p {
+    color: #737791;
+    font-weight: 400;
+    font-size: 16px;
+}
+.eachReport, .index0, .index1, .index2, .index3{
+    padding: 15px;
+    border-radius: 8px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.mapReport{
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+@media (max-width:950px) {
+    .eachbox .mapReport{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.index0{
+    background: #FFE2E5;
+
+}
+.index0 div, .index1 div, .index2 div, .index3 div{
+    background: #FA5A7D;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: #FA5A7D; */
+}
+.index0 div svg{
+    stroke: #FA5A7D;
+    fill: #ffffff;
+}
+.index1 div svg{
+    stroke: #FF947A;
+    fill: #ffffff;
+    color: #ffffff;
+}
+.index2 div svg{
+    stroke: #3CD856;
+    fill: #ffffff;
+    color: #ffffff;
+}
+.index3 div svg{
+    stroke: #BF83FF;
+    fill: #ffffff;
+    color: #ffffff;
+}
+.index1{
+    background: #FFF4DE;
+}
+.index2{
+    background: #DCFCE7;
+}
+.index1 div{
+    background: #FF947A;
+}
+.index2 div{
+    background: #3CD856;
+}
+.index3 div{
+    background: #BF83FF;
+}
+.index3{
+    background: #F3E8FF;
+}
+.eachReport h6{
+    color: #151D48;
+    font-weight: 600;
+    font-size: 20px;
+}
+.eachReport .increase{
+    color: #4079ED;
+    font-weight: 500;
+    font-size: 8px;
+}
+.eachReport .title{
+    color: #425166;
+    font-weight: 500;
+    font-size: 12px;
+}
+.divTitle{
+    
+}
+@media (max-width: 725px) {
+    .salesMain .row1{
+        grid-template-columns: none;
+    }
+}
